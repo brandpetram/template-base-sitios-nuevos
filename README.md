@@ -77,9 +77,47 @@ public/
 └── images/            # Tus imagenes
 ```
 
+## Componentes UI Incluidos
+
+El template incluye componentes base de shadcn/ui listos para usar:
+
+```
+src/components/ui/
+├── badge.tsx      # Badges y etiquetas
+├── button.tsx     # Botones con variantes
+├── card.tsx       # Cards y contenedores
+├── chart.tsx      # Graficas con recharts
+├── checkbox.tsx   # Checkboxes accesibles
+├── field.tsx      # Wrapper para campos de formulario
+├── input.tsx      # Campos de texto
+├── label.tsx      # Etiquetas para formularios
+├── separator.tsx  # Separadores visuales
+└── textarea.tsx   # Areas de texto multilinea
+```
+
+## Dependencias Preinstaladas
+
+El template incluye todas las dependencias necesarias para componentes de:
+
+**Tailark Pro:**
+- dotted-map (mapas con puntos)
+- @radix-ui/react-avatar
+
+**Pro-Blocks (shadcn/design):**
+- recharts@2.15.4 (graficas - NO usar v3.x)
+- @radix-ui/react-checkbox
+- @radix-ui/react-label
+- @radix-ui/react-separator
+- @radix-ui/react-slot
+- class-variance-authority
+
+**Tailwind UI:**
+- @headlessui/react
+- @heroicons/react
+
 ## Stack Tecnologico
 
-- Next.js 15
+- Next.js 16
 - React 19
 - Tailwind CSS v4
 - motion/react (animaciones)
